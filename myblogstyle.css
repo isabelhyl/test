@@ -1,0 +1,250 @@
+body {
+    background-color: khaki;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+
+.nav {
+    justify-content: center;
+    background-color: black;
+    border-style: hidden;
+    padding: 0px;
+    height: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navv {
+    display: inline;
+}
+
+.animes {
+    text-align: initial;
+}
+
+.series {
+    text-align: initial;
+}
+
+.accomplishments {
+    text-align: initial;
+}
+
+.socials {
+    text-align: initial;
+}
+
+table{
+    background-color: gold;
+    border-width: medium;
+    border-style: double;
+    text-align: initial;
+    padding: 20px;
+}
+
+
+.flip-cards {
+    display: inline;
+    flex-direction: row;
+}
+
+
+
+
+
+
+.flip-favcolor {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-favcolor-inner {
+    position: relative;
+    width:300px;
+    height:400px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-favcolor:hover .flip-favcolor-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-favcolor-front, .flip-favcolor-back {
+    position: absolute;
+    width:300px;
+    height:400px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-favcolor-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-favcolor-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+  .flip-favfood {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-favfood-inner {
+    position: relative;
+    width:300px;
+    height:400px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-favfood:hover .flip-favfood-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-favfood-front, .flip-favfood-back {
+    position: absolute;
+    width:300px;
+    height:400px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-favfood-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-favfood-back {
+    background-color: gold;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+  .flip-favquote {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-favquote-inner {
+    position: relative;
+    width:300px;
+    height:400px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-favquote:hover .flip-favquote-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-favquote-front, .flip-favquote-back {
+    position: absolute;
+    width:300px;
+    height:400px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-favquote-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-favquote-back {
+    background-color: gold;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  
+
+
+
+
+  .flip-rickroll {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-rickroll-inner {
+    position: relative;
+    width:300px;
+    height:400px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-rickroll:hover .flip-rickroll-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-rickroll-front, .flip-rickroll-back {
+    position: absolute;
+    width:300px;
+    height:400px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-rickroll-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-rickroll-back {
+    transform: rotateY(180deg);
+  }
+  
