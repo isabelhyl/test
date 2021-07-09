@@ -1,5 +1,5 @@
 body {
-    background-color: khaki;
+    background-size: 100%;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -48,7 +48,7 @@ table{
 
 
 .flip-cards {
-    display: inline;
+    display: flex;
     flex-direction: row;
 }
 
